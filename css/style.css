@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100vh;
+    margin: 8px;
+    padding: 0 2% 0 2%;
+}
+img{
+    margin: auto
+}
+div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.wrapper{
+    margin-top: 2px;
+}
+.size-20{
+    width: 20%;
+}
+.size-40{
+    width: 40%;
+}
+.size-100{
+    width: 100%;
+    height: 60px;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+.size-20,.size-40{
+    height: 74px;
+}
+.left{
+    background-color: #7ee5da;
+    font-size: medium;
+    margin-right: 2px;
+}
+.mid{
+    background-color: #70ccc2;
+    font-size: 13px;
+    margin-right: 2px;
+}
+.right{
+    background-color: #62b3aa;
+    font-size: 13px;
+}
+.footer{
+    margin-top: 17px;
+    text-align: center;
+    font-size: 13px;
+}
+.size-100 input{
+    width: 293px;
+}
+.buttons{
+    flex-direction: row;
+    justify-content: center ;
+}
+.buttons input{
+    width: 110px;
+    margin-right: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+input[value='Subscribe']{
+    padding: 1px 6px;
+}
